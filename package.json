@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ./example2/server.js"
+    "start": "nodemon ./example3/server.js"
   },
   "dependencies": {
+    "apollo-server": "^2.21.0",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.5.0",
